@@ -1,0 +1,41 @@
+{
+  "name": "luxcore-p2p",
+  "version": "1.1.2",
+  "description": "Interface to the luxcoin P2P network for luxcore",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    {
+      "name": "216k155",
+      "email": "216k155@i2pd.net"
+    }
+  ],
+  "keywords": [
+    "luxcoin",
+    "luxcore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/216k155/luxcore-p2p.git"
+  },
+  "dependencies": {
+    "luxcore-lib": "^0.13.19",
+    "bloom-filter": "^0.2.0",
+    "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
+    "socks5-client": "^0.3.6"
+  },
+  "devDependencies": {
+    "luxcore-build": "git://github.com/216k155/luxcore-build.git",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "license": "MIT"
+}
